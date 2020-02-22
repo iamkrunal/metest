@@ -29,7 +29,7 @@ BDD test has been used
                         the correct out put balance.
                       - Tests non existant account id and/or date range which return ZERO balance
                       
-   ![Test results](https://drive.google.com/file/d/1RJKX4gQAgcnvEeEGDPXyK5Nd0JMInq2g/view?usp=sharing)
+   ![Test results](./images/test_results.png)
                       
 # Assumption
 * The transactions csv is in valid format
