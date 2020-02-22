@@ -29,7 +29,7 @@ BDD test has been used
                         the correct out put balance.
                       - Tests non existant account id and/or date range which return ZERO balance
                       
-   ![Test results](./images/test_results.png?raw=true "Test Results")
+   ![Test results](./images/test_results.PNG?raw=true "Test Results")
                       
 # Assumption
 * The transactions csv is in valid format
@@ -39,10 +39,10 @@ NOTE: No exception handling has been programmed
 # Building a jar
 gradlew build jar
 
-# Run a Jar with default transactions csv file bundled into the jar
+### Run a Jar with default transactions csv file bundled into the jar
 * java -jar metest-[version]-[snapshot].jar
 
-# Run a Jar with a file (e.g. transactions.csv) as an argument
+### Run a Jar with a file (e.g. transactions.csv) as an argument
 * java -jar metest-[version]-[snapshot].jar c:/temp/transactions.csv
 
 
