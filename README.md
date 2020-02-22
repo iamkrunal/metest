@@ -29,7 +29,7 @@ BDD test has been used
                         the correct out put balance.
                       - Tests non existant account id and/or date range which return ZERO balance
                       
-   ![Test results](./images/test_results.png)
+   ![Test results](./images/test_results.png?raw=true "Test Results")
                       
 # Assumption
 * The transactions csv is in valid format
