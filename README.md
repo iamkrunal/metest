@@ -34,7 +34,8 @@ BDD test has been used
 # Assumption
 * The transactions csv is in valid format
 * User inputs are in valid format 
-NOTE: No exception handling has been programmed
+* Reversal transactions are only considered if they are valid to count under the input date range provided
+* No exception handling has been programmed
 
 # Building a jar
 gradlew build jar
@@ -45,17 +46,13 @@ gradlew build jar
 
 ![Application Output](./images/execution.PNG?raw=true "Application Output")
 
-
-### Run a Jar with default transactions csv file bundled into the jar
-* java -jar metest-[version]-[snapshot].jar
-
-
 ### Run a Jar with a file (e.g. transactions.csv) as an argument
 * java -jar metest-[version]-[snapshot].jar c:/temp/transactions.csv
 
 ![Application Output](./images/running_jar_with_param.PNG?raw=true "Application Output")
  
-
+### User Input
+* When you run the program either using IDE or by commind line you will be asked to enter AccountID, From Time and To Time which will be then used in the BalanceService to determin the balance at the time and number of transaction included
 
 # Author
 Krunal Shah
