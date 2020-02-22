@@ -39,13 +39,17 @@ NOTE: No exception handling has been programmed
 # Building a jar
 gradlew build jar
 
+# Running the jar
+
+### Run Main.kt from the IntelliJ IDE using the Play button
+
 ### Run a Jar with default transactions csv file bundled into the jar
 * java -jar metest-[version]-[snapshot].jar
 
 ### Run a Jar with a file (e.g. transactions.csv) as an argument
 * java -jar metest-[version]-[snapshot].jar c:/temp/transactions.csv
 
-
+ ![Application Output](./images/execution.PNG?raw=true "Application Output")
 
 
 
